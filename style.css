@@ -1,19 +1,27 @@
+@charset "utf-8";
+
 #layout {
-    position: static;
-}
-#layout1 {
-    position: static;
+    position: relative;
     top: 20px;
-}
-#layout2 {
-    position: static;
     left: 20px;
 }
+#layout1 {
+    position: relative;
+    top: 20px;
+    background-color: red;
+}
+#layout2 {
+    position: relative;
+    left: 20px;
+    background-color: yellow;
+}
 #layout3 {
-    position: static;
+    position: relative;
     right: -20px;
+    background-color: blue;
 }
 #layout4 {
-    position: static;
+    position: relative;
     bottom: 20px;
+    background-color: gray;
 }
