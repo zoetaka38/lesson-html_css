@@ -1,27 +1,12 @@
 @charset "utf-8";
 
-#layout {
+/* -------------------- wrapper -------------------- */
+#wrapper {
+	width: 80%;
+	margin: auto;
+	padding: 0px;
+	border: 0px;
+    background-color: #FFF;	
     position: relative;
-    top: 40px;
-    left: 40px;
-}
-#layout1 {
-    position: fixed;
     top: 10px;
-    background-color: red;
-}
-#layout2 {
-    position: relative;
-    left: 40px;
-    background-color: yellow;
-}
-#layout3 {
-    position: relative;
-    right: -40px;
-    background-color: blue;
-}
-#layout4 {
-    position: relative;
-    bottom: 40px;
-    background-color: gray;
 }
