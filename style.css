@@ -2,28 +2,26 @@
 
 #layout {
     position: relative;
-    top: 30px;
+    top: 40px;
+    left: 40px;
 }
 #layout1 {
-    position: absolute;
+    position: fixed;
     top: 10px;
     background-color: red;
 }
 #layout2 {
-    position: absolute;
-    top: 10px;
-    left: 50px;
+    position: relative;
+    left: 40px;
     background-color: yellow;
 }
 #layout3 {
-    position: absolute;
-    top: 10px;
-    left: 90px;
+    position: relative;
+    right: -40px;
     background-color: blue;
 }
 #layout4 {
-    position: absolute;
-    top: 10px;
-    left: 120px;
+    position: relative;
+    bottom: 40px;
     background-color: gray;
 }
