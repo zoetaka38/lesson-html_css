@@ -50,6 +50,10 @@
 	background-color: green;
 }
 
+#nav ul li a:hover {
+	filter: drop-shadow(10px 10px 10px black);
+}
+
 /* -------------------- container -------------------- */
 #container {
 	width: 100%;
@@ -150,4 +154,11 @@
 	padding: 8px 0 8px 4px;
 	list-style: none;
 	border-bottom: solid 1px #C36;
+}
+
+#side .box .boxBody ul li:hover {
+	padding: 8px 0 8px 4px;
+	list-style: none;
+	border-bottom: solid 1px #C36;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
